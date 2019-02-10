@@ -1,0 +1,37 @@
+[CLIENT] 0x3400003
+  [CLIENT_LEADER] 0x3400001
+  [RES_NAME] mousepad
+  [RES_CLASS] Mousepad
+  [WM_NAME] */home/odinp/Desktop/Plain Text.txt - Mousepad
+  [WM_COMMAND] (1) "mousepad"
+  [GEOMETRY] (640,271,640,480)
+  [GEOMETRY-MAXIMIZED] (640,271,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x3600003
+  [CLIENT_ID] 246960321-1d5b-4775-bdd5-f0da9f7b8bca
+  [CLIENT_LEADER] 0x3600001
+  [WINDOW_ROLE] xfce4-terminal-1549818478--1267393993
+  [RES_NAME] xfce4-terminal
+  [RES_CLASS] Xfce4-terminal
+  [WM_NAME] Terminal - odinp@odinp-VirtualBox: ~
+  [WM_COMMAND] (1) "xfce4-terminal"
+  [GEOMETRY] (199,190,577,387)
+  [GEOMETRY-MAXIMIZED] (199,190,577,387)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000
+[CLIENT] 0x1000004
+  [CLIENT_ID] 2b6b96549-4551-4b6d-ac12-0700f6cef4fa
+  [CLIENT_LEADER] 0x1000001
+  [WINDOW_ROLE] Thunar-1549818458-3775598403
+  [RES_NAME] Thunar
+  [RES_CLASS] Thunar
+  [WM_NAME] VBox_GAs_6.0.4 - File Manager
+  [WM_COMMAND] (1) "Thunar"
+  [GEOMETRY] (1,49,640,480)
+  [GEOMETRY-MAXIMIZED] (1,49,640,480)
+  [SCREEN] 0
+  [DESK] 0
+  [FLAGS] 0x10000

@@ -1,0 +1,98 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/odinp/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=hu_HU.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=hu_HU.UTF-8
+dbus-update-activation-environment: setting LC_MONETARY=hu_HU.UTF-8
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting LC_NAME=hu_HU.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/odinp
+dbus-update-activation-environment: setting USER=odinp
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/odinp
+dbus-update-activation-environment: setting HOME=/home/odinp
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting LC_ADDRESS=hu_HU.UTF-8
+dbus-update-activation-environment: setting LC_NUMERIC=hu_HU.UTF-8
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting LC_TELEPHONE=hu_HU.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=odinp
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/odinp/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting LC_IDENTIFICATION=hu_HU.UTF-8
+dbus-update-activation-environment: setting LC_TIME=hu_HU.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:828): xfce4-session-WARNING **: 18:06:54.818: xfsm_manager_load_session: Something wrong with /home/odinp/.cache/sessions/xfce4-session-odinp-VirtualBox:0, Does it exist? Permissions issue?
+** Message: 18:06:54.859: couldn't access control socket: /run/user/1000/keyring/control: No such file or directory
+
+(polkit-gnome-authentication-agent-1:854): GLib-CRITICAL **: 18:06:55.514: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:854): polkit-gnome-1-WARNING **: 18:06:55.514: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(nm-applet:868): Gtk-WARNING **: 18:06:56.731: Can't set a parent on widget which has a parent
+
+(nm-applet:868): Gdk-CRITICAL **: 18:06:57.062: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(wrapper-2.0:958): GLib-GIO-CRITICAL **: 18:06:57.272: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:958): GLib-GIO-CRITICAL **: 18:06:57.272: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:958): GLib-GObject-WARNING **: 18:06:57.272: invalid (NULL) pointer instance
+
+(wrapper-2.0:958): GLib-GObject-CRITICAL **: 18:06:57.272: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:958): Gtk-WARNING **: 18:06:57.272: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(wrapper-2.0:958): Gtk-WARNING **: 18:06:57.368: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:962): Gtk-WARNING **: 18:06:57.623: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+** (wrapper-2.0:961): WARNING **: 18:06:57.764: No outputs have backlight property
+
+(wrapper-2.0:949): Gtk-WARNING **: 18:06:58.039: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:961): Gtk-WARNING **: 18:06:58.063: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+
+(xfwm4:840): xfwm4-WARNING **: 18:09:44.461: output size (1920x975) and logical screen size (800x600) do not match
+
+(mousepad:13719): Gtk-WARNING **: 18:10:32.189: Theme parsing error: <data>:2:29: The style property GtkButton:default-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:13719): Gtk-WARNING **: 18:10:32.189: Theme parsing error: <data>:3:37: The style property GtkButton:default-outside-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:13719): Gtk-WARNING **: 18:10:32.189: Theme parsing error: <data>:4:27: The style property GtkButton:inner-border is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:13719): Gtk-WARNING **: 18:10:32.189: Theme parsing error: <data>:5:31: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(mousepad:13719): Gtk-WARNING **: 18:10:32.189: Theme parsing error: <data>:6:28: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(xfce4-session:828): Gtk-CRITICAL **: 18:10:50.457: IA__gtk_widget_set_visible: assertion 'GTK_IS_WIDGET (widget)' failed
+xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.
+
+(xfce4-session:828): GLib-GObject-CRITICAL **: 18:10:51.527: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.0.

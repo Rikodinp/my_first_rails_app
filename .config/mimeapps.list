@@ -1,0 +1,4 @@
+[Added Associations]
+text/plain=mousepad.desktop;
+application/vnd.debian.binary-package=gnome-software-local-file.desktop;
+application/x-shellscript=mousepad.desktop;
